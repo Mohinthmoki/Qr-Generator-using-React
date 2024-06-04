@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.container h1{
+  font-weight: 600;
+  font-size: 18px;
+  color: #1f014e;
+}
+
+
+
+.container img{
+    
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+.main1{
+  display: block;
+  margin-bottom: 5px;
+  color:blue;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#main2{
+  padding: 12px;
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: 16px;
+  border: 2px solid#3498db;
+  border-radius: 5px
+}
+
+button{
+  padding: 15px 20px;
+  font-size: 18px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition:background-color 0.3s;
+}
+
+.GQ{
+    background-color: #3498db;
+}
+
+.GQ:disabled{
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.DQ{
+  background-color: #27ae60;
+  margin-left: 10px;
+}
+
+.DQ:hover{
+  background-color: #219a52;
+}
+
+footer{
+  margin: 20px;
+  color: rgb(130, 15, 238);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 400px;
+}
+
+
+
